@@ -22,13 +22,14 @@ header > div > div {
 
 }
 
-header img{
+/*header img{
     width: 50px;
 }
 
 footer img{
     width: 50px;
-}
+}*/
+
 footer {
     width: 50px;
 }
@@ -43,5 +44,5 @@ nav > div > div ul{
 }
 
 img{
-    width: 120px;
+    width: 50px;
 }
