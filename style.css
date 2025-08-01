@@ -9,10 +9,26 @@ header{
     box-sizing: border-box;
 }
 
-header > div {
+header > div g{
+    display: flex;
     width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+
 }
 
+header > div > div {
+    margin-top: 20px;
+
+}
+
+header img{
+    width: 50px;
+}
+
+footer img{
+    width: 50px;
+}
 footer {
     width: 50px;
 }
@@ -22,6 +38,10 @@ nav > div{
 }
 
 nav > div > div ul{
-    display: none;
-    list-style: none ;
+    display: auto;
+    list-style: none;
+}
+
+img{
+    width: 120px;
 }
