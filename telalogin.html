@@ -7,6 +7,47 @@
 </head>
 
 <body>
-    <h1> Faça login </h1>
+    <header>
+    <div>
+      <h1>
+        <img src="img/azul claro.jpg" alt="logo">
+        <img src="img/logo ifrn.jpg" alt="logo">
+        <style>
+            img {
+                width: 55px;
+                height: auto;
+            }
+        </style>
+        Química I
+      </h1>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="telalogin.html">Login</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <button> Login </button>
+        <button> Cadastro </button>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+    
+  </header>
+  <main> 
+    <h1>Bem-vindo à área virtual da disciplina de Química I </h1>
+    <img src="img/simbolo quimica.png" alt="Imagem de Química">
+    <form action="process_login.php" method="post">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Entrar</button>
+    </form>
+  </main>
 </body>
 </html>
